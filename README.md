@@ -1,5 +1,5 @@
 # Python-Visualization
-Visualization in Pyhton using Pandas, Numpy, Seaborn, and Matplotlib libraries
+Visualization in Python using Pandas, Numpy, Seaborn, and Matplotlib libraries
 
 **Summary**
 
