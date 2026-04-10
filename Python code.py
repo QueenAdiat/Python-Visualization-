@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 # Reading data into the Pandas Dataframe
 
-data=pd.read_csv(r"C:\Users\Admin.DESKTOP-M4R2VLU\Downloads\DataScientist.csv")  #depending on the location in the user's system ##########
+data=pd.read_csv(DataScientist.csv")  #depending on the location in the user's system ##########
 
 
 # Understanding the data ######
