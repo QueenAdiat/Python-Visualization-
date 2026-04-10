@@ -10,20 +10,20 @@ import matplotlib.pyplot as plt
 
 # Reading data into the Pandas Dataframe
 
-data=pd.read_csv(DataScientist.csv")  #depending on the location in the user's system ##########
+data=pd.read_csv("DataScientist.csv")  #depending on the location in the user's system ##########
 
 
 # Understanding the data ######
 
 print(data.head(15))
 print(data.shape)
-print(data.describe)
-print(data.isnull)
+print(data.describe())
+print(data.isnull())
 print(data.isnull() .sum(). sum())  # looking for missing values 
 
 # # Taking out unecessary columns
 
-new_data= data.drop(columns=["Easy Apply", 'Competitors']) 
+new_data= data.drop(columns=["Easy Apply", 'Competitors'], errors="ignore") 
 
 # #  Plotting Histogram of Rating and salary estimate  
 
